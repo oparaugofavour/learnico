@@ -58,6 +58,14 @@ nav{
 .right{
     width: 30%;
 }
+.right h1{
+    background-image: url(images/Ellipse\ 26.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: left top;
+    background-size: inherit;
+    padding: 20px;
+}
 .right h1,
 .rigth p{
     width: 70%;
