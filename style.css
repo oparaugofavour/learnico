@@ -1,0 +1,318 @@
+html{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: #E9FFDF;
+    margin: auto;
+    width: 90%;
+}
+nav{
+    width: 100%;
+    margin: auto;
+    height: 12vh;
+}
+.nav-bar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.lists{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+}
+.lists a{
+    text-decoration: none;
+    color: #16401F;
+    padding: 8px 30px;
+    text-align: center;
+    border-radius: 10px;
+}
+.lists a i{
+    font-size: 25px;
+    margin-right: -25px;
+}
+
+#login{
+    background-color: #16401F;
+    border: none;
+    color: white;
+}
+.landing-page{
+    width: 100%;
+    margin: auto;
+}
+.landing-page-content{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: #16401F;
+
+}
+.right{
+    width: 30%;
+}
+.right h1,
+.rigth p{
+    width: 70%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.right button{
+    padding: 10px 20px;
+    background-color: #16401F;
+    color: white;
+    border: none;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.left{
+    width: 50%;
+}
+.left img{
+    width: 100%;
+    margin-top: 20px;
+}
+.popular-courses{
+    width: 100%;
+    margin: auto;
+    padding-top: 60px;
+}
+.popular-courses h2{
+    color: #16401F;
+    margin-top: 20px;
+}
+.course-list{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.first-frame{
+    background: #A9CFAB;
+    color: #16401F;
+    width: 15%;
+}
+.frame-txt{
+    width: 90%;
+    margin: auto;
+}
+.frame-icon{
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding: 0px 5px;
+}
+.frame-icon img{
+    height: 20px;
+    margin-top: 24px;
+}
+.second-frame{
+    background: #16401F;
+    color: white;
+    width: 15%;
+}
+.mission-page{
+    width: 100%;
+    margin-top: 30px;
+    margin: auto;
+    padding-top: 100px;
+}
+.mission-content{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.image-wrap{
+    width: 55%;
+}
+.image-wrap img{
+    width: 100%;
+    height: 80%;
+}
+.blurb-wrap{
+    width: 40%;
+    height: 35vh;
+    margin-top: 30px;
+}
+.first-blurb,
+.second-blurb{
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+}
+.first-blurb{
+    background-color: #A9CFAB;
+    color: #16401F;
+}
+.second-blurb{
+    background-color: #16401F;
+    color: white;
+}
+.first-blurb img,
+.second-blurb img{
+    height: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.creative-courses{
+    width: 100%;
+    margin: auto;
+}
+.creative-content{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0px;
+}
+.creative-blurb{
+    width: 30%;
+    margin-top: 30px;
+    color: #16401F;
+}
+.creative-blurb h3{
+    color: #F89623;
+    font-weight: 300;
+    margin-bottom: 20px;
+    width: 100%;
+}
+.creative-blurb h2{
+    width: 60%;
+}
+.creative-blurb p{
+    width: 100%;
+}
+.creative-blurb button{
+    padding: 8px 20px;
+    background-color: #16401F;
+    border: none;
+    color: white;
+    margin-top: 30px;
+    margin-left: 25px;
+}
+.creative-image{
+    width: 50%;
+}
+.creative-image img{
+    width: 100%;
+}
+.student-love{
+    width: 100%;
+    margin: auto;
+}
+.student-content{
+    width: 100%;
+    display: flex;
+    padding: 50px 0px;
+}
+.student-blurb{
+    width: 35%;
+    order: 2;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #16401F;
+    margin-left: 190px;
+}
+.student-blurb h3{
+    font-weight: 300;
+    color: #F89623;
+}
+.student-blurb h2{
+    width: 80%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.student-blurb h4{
+    width: 70%;
+    margin-top: 20px;
+}
+.student-image{
+    width: 28%;
+    height: 28%;
+    border: 30px solid #F89623;
+    border-radius: 190px;
+    margin-top: 30px;
+}
+.student-image img{
+    width: 100%;
+    height: 100%;
+}
+footer{
+    width: 100%;
+}
+.subscribe-div{
+    width: 30%;
+    text-align: center;
+    margin: auto;
+    padding: 30px 35px;
+    background-color: #16401F;
+    color: white;
+}
+#Yemail{
+    width: 90%;
+    padding: 8px;
+    border: none;
+}
+.subscribe-div button{
+    margin-left: -120px;
+    background-color: #16401F;
+    border: none;
+    padding: 5px;
+    color: white;
+}
+.footer-info{
+    display: flex;
+    width: 100%;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.support-list,
+.contact-list{
+    color: #16401F;
+    margin-left: 110px;
+    margin-bottom: 30px;
+
+}
+.support-list a,
+.contact-list a{
+    display: block;
+    text-decoration: none;
+    color: #16401F;
+    margin-bottom: 13px;
+}
+.chat-board{
+    background-image: url(images/Group\ 3.png);
+    margin-left: 150px;
+    width: 40%;
+    height: 220px;
+    margin-left: 70%;
+    margin-top: -20%;
+}
+.chat-board-content{
+    padding-top: 40px;
+    padding-left: 100px;
+    background-color: transparent;
+    color: white;
+}
+.chat-board-content button{
+    padding: 10px 25px;
+    border: none;
+    background-color: white;
+    color: #16401F;
+}
+
+
+
+
+
+
+
+
+
