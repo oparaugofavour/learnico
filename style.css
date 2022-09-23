@@ -5,12 +5,34 @@ html{
     font-family: 'Roboto', sans-serif;
 }
 body{
-    background-color: #E9FFDF;
     margin: auto;
-    width: 90%;
 }
-nav{
+header{
     width: 100%;
+    background-color: #E9FFDF;
+}
+.quado{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background-color: #E9FFDF;
+}
+.quado .bxs-circle{
+    font-size: 100px;
+    color: #F89623;
+    margin-left: -40px;
+    margin-top: -40px;
+}
+#close{
+    color: #16401F;
+    font-size: 20px;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: -1px;
+}
+
+nav{
+    width: 90%;
     margin: auto;
     height: 12vh;
 }
@@ -38,41 +60,52 @@ nav{
     font-size: 25px;
     margin-right: -25px;
 }
-
 #login{
     background-color: #16401F;
     border: none;
     color: white;
 }
 .landing-page{
+    background-color: #E9FFDF;
     width: 100%;
     margin: auto;
 }
+.landing-page .bxs-circle{
+    color: #F89623;
+    position: relative;
+    margin-left: 900px;
+}
+
 .landing-page-content{
-    width: 100%;
+    width: 90%;
+    margin: auto;
     display: flex;
     justify-content: space-between;
     color: #16401F;
+    padding-top: 50px;
 
 }
-.right{
+.left{
     width: 30%;
 }
-.right h1{
-    background-image: url(images/Ellipse\ 26.png);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: left top;
-    background-size: inherit;
-    padding: 20px;
+.left-circle img{
+    position: absolute;
+    z-index: 0;
+    width: 300px;
+    margin-top: -90px;
+    margin-left: -50px;
 }
-.right h1,
-.rigth p{
+.left h1{
+    position: relative;
+    z-index: 1;
+}
+.left h1,
+.left p{
     width: 70%;
-    margin-top: 20px;
+    margin-top: 30px;
     margin-bottom: 20px;
 }
-.right button{
+.left button{
     padding: 10px 20px;
     background-color: #16401F;
     color: white;
@@ -80,24 +113,51 @@ nav{
     margin-left: 30px;
     margin-top: 30px;
 }
-.left{
+.right{
     width: 50%;
 }
-.left img{
+.right .blur-img{
+    position: absolute;
+    z-index: 0;
+    margin-left: -150px;
+    margin-top: -110px;
+    width: 30%;
+}
+.right img{
     width: 100%;
     margin-top: 20px;
+    z-index: 1;
+    position: relative;
+}
+.right .bxs-circle-half{
+    color: #F89623;
+    font-size: 20px;
+    transform: rotate(-90deg);
+    position: relative;
+    margin-top: 30px;
+    margin-left: 600px;
 }
 .popular-courses{
     width: 100%;
+    background-color: #E9FFDF;
     margin: auto;
-    padding-top: 60px;
+}
+.popular-courses .bxs-circle{
+    margin-left: 79px;
+    color: #F89623;
+}
+#secondpc{
+    margin-left: 1050px;
+    margin-top: 60px;
 }
 .popular-courses h2{
     color: #16401F;
-    margin-top: 20px;
+    margin-left: 60px;
+    margin-bottom: 30px;
 }
 .course-list{
-    width: 100%;
+    width: 90%;
+    margin: auto;
     display: flex;
     justify-content: space-between;
 }
@@ -130,24 +190,43 @@ nav{
     width: 100%;
     margin-top: 30px;
     margin: auto;
-    padding-top: 100px;
+    background-color: #E9FFDF;
+    position: relative;
+    z-index: 1;
+}
+.mission-page .bxs-circle{
+    color: #F89623;
+    margin-bottom: 30px;
+    margin-left: 460px;
 }
 .mission-content{
     display: flex;
     justify-content: space-between;
-    width: 100%;
+    width: 90%;
+    margin: auto;
 }
 .image-wrap{
-    width: 55%;
+    width: 50%;
 }
 .image-wrap img{
     width: 100%;
     height: 80%;
+    position: relative;
+    z-index: 1;
+}
+.mission-page .bxs-square{
+    font-size: 200px;
+    position: absolute;
+    z-index: 0;
+    margin-left: 20px;
+    margin-top: 5px;
+    color: #F89623;
 }
 .blurb-wrap{
-    width: 40%;
+    width: 30%;
     height: 35vh;
     margin-top: 30px;
+    margin-right: 35px;
 }
 .first-blurb,
 .second-blurb{
@@ -172,17 +251,34 @@ nav{
 }
 .creative-courses{
     width: 100%;
-    margin: auto;
+    background-color: #E9FFDF;
+    position: relative;
+}
+#blur-image{
+    margin-top: -120px;
+    margin-left: -50px;
+    width: 320px;
+}
+.creative-courses .bxs-circle{
+    color: #16401F;
+    margin-left: 80px;
+    margin-bottom: 150px;
+}
+#creativestop{
+    color: #F89623;
+    margin-left: 800px;
 }
 .creative-content{
-    width: 100%;
+    width: 90%;
+    margin: auto;
     display: flex;
     justify-content: space-between;
-    padding: 30px 0px;
+    padding-bottom: 30px;
+    margin-top: -100px;
 }
 .creative-blurb{
     width: 30%;
-    margin-top: 30px;
+    margin-top: 10px;
     color: #16401F;
 }
 .creative-blurb h3{
@@ -210,15 +306,40 @@ nav{
 }
 .creative-image img{
     width: 100%;
+    position: relative;
+    z-index: 1;
+}
+#creativecont{
+    margin-left: 600px;
+    margin-top: -70px;
+}
+.creative-courses .bxs-square{
+    color: #16401F;
+    font-size: 300px;
+    position: absolute;
+    z-index: 0;
+    margin-top: -260px;
+    margin-left: 960px;
 }
 .student-love{
     width: 100%;
-    margin: auto;
+    background-color: white;
+    overflow: hidden;
+}
+.student-love .slcircle1{
+    margin-top: -100px;
+    margin-left: -80px;
+}
+.student-love .slcircle2{
+    margin-bottom: -180px;
+    margin-left: 1000px;
 }
 .student-content{
-    width: 100%;
+    width: 90%;
+    margin: auto;
     display: flex;
     padding: 50px 0px;
+    margin: auto;
 }
 .student-blurb{
     width: 35%;
@@ -241,6 +362,14 @@ nav{
     width: 70%;
     margin-top: 20px;
 }
+#sldot1{
+    margin-left: 830px;
+}
+#sldot2{
+    color: #F89623;
+    margin-left: 900px;
+    margin-top: -90px;
+}
 .student-image{
     width: 28%;
     height: 28%;
@@ -253,7 +382,18 @@ nav{
     height: 100%;
 }
 footer{
+    position: relative;
     width: 100%;
+    background-color: #E9FFDF;
+    padding-top: 130px;
+    overflow: hidden;
+}
+footer img{
+    position: absolute;
+    z-index: 0;
+    margin-top: -130px;
+    margin-left: 690px;
+    width: 300px;
 }
 .subscribe-div{
     width: 30%;
@@ -262,6 +402,8 @@ footer{
     padding: 30px 35px;
     background-color: #16401F;
     color: white;
+    position: relative;
+    z-index: 1;
 }
 #Yemail{
     width: 90%;
@@ -281,11 +423,18 @@ footer{
     margin-top: 50px;
     margin-left: 50px;
 }
+.footer-info .fellipse{
+    margin-top: -7rem;
+    margin-left: 3rem;
+    width: 29rem;
+}
 .support-list,
 .contact-list{
     color: #16401F;
     margin-left: 110px;
     margin-bottom: 30px;
+    position: relative;
+    z-index: 1;
 
 }
 .support-list a,
@@ -297,17 +446,20 @@ footer{
 }
 .chat-board{
     background-image: url(images/Group\ 3.png);
-    margin-left: 150px;
-    width: 40%;
-    height: 220px;
-    margin-left: 70%;
-    margin-top: -20%;
+    background-size: 400px;
+    background-repeat: no-repeat;
+    width: 30%;
+    float: right;
+    margin-top: -15%;
 }
 .chat-board-content{
-    padding-top: 40px;
-    padding-left: 100px;
-    background-color: transparent;
+    width: 70%;
     color: white;
+    text-align: center;
+    margin-top: 70px;
+    margin-left: 60px;
+    background-color: #16401F;
+    padding-bottom: 20px;
 }
 .chat-board-content button{
     padding: 10px 25px;
